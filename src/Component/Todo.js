@@ -11,10 +11,11 @@ function Todo({todos, completeTodo, removeTodo, updateTodo}) {
 
 
     const submitUpdate = value => {
+        debugger
         updateTodo(edit.id, value)
         setEdit({
             id: null,
-            value: ""
+            value: value.text
         })
     }
 

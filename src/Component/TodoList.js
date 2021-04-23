@@ -16,14 +16,17 @@ function TodoList(props) {
     const updateTodo = (todoId, newValue) => {
         debugger
         if (!newValue.text || /^\s*$/.test(newValue.text)) {
+            debugger
             return
         }
-        // const toDo = todos.find(tl => tl.id === todoId)
-        // if (toDo) {
-        //     toDo.text = newValue
-        // }
-        // setTodos([...todos])
-        setTodos(prew => prew.map(item => (item.id === todoId ? newValue : item)))
+        const toDo = todos.find(tl => tl.id === todoId)
+        if (toDo) {
+            debugger
+            toDo.text = newValue
+        }
+        debugger
+        setTodos([...todos])
+        // setTodos(prew => prew.map(item => (item.id === todoId ? newValue : item)))
     }
     const removeTodo = id => {
         const removeArr = [...todos].filter(todo => todo.id !== id)
@@ -47,7 +50,7 @@ function TodoList(props) {
                 todos={todos}
                 completeTodo={completeTodo}
                 removeTodo={removeTodo}
-                // updateTodo={updateTodo}
+                updateTodo={updateTodo}
             />
         </div>
     )

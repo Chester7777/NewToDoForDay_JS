@@ -32,7 +32,7 @@ function TodoForm(props) {
                             onChange={handleChange}
                             ref={inputRef}
                         />
-                        <button type={"button"} className="todo-button edit" onSubmit={() => props.updateTodo} onClick={() => props.updateTodo}>Update</button>
+                        <button type={"submit"} className="todo-button edit"  onClick={props.onSubmit}>Update</button>
                     </>
                 ) : (
                     <>
