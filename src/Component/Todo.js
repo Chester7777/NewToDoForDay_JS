@@ -14,7 +14,7 @@ export const Todo = (props) => {
                     <form className="t;d;-form">
                         <input
                             type="text"
-                            className="todo-inputTask"
+                            className="task-input"
                             value={newText}
                             onChange={event => (setNewText(event.target.value))}/>
                     </form>
