@@ -10,8 +10,15 @@ export const Todo = (props) => {
         <>
             <div
                 className={props.todo.isComplete ? "todo-row complete" : "todo-row"}>
-                {edit ? <input type="text" value={newText} onChange={event => (setNewText(event.target.value))}/> :
-                    <div onClick={() => props.completeTodo(props.todo.id)}>
+                {edit ?
+                    <form className="t;d;-form">
+                        <input
+                            type="text"
+                            className="todo-inputTask"
+                            value={newText}
+                            onChange={event => (setNewText(event.target.value))}/>
+                    </form>
+                    : <div onClick={() => props.completeTodo(props.todo.id)}>
                         {props.todo.text}
                     </div>}
                 <div className="icons">

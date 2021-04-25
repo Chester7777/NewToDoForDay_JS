@@ -13,7 +13,7 @@ export function AddTodoForm(props) {
     }
 
     return (
-        <form className="t;d;-form" method={'post'} action={'/api'} >
+        <form className="t;d;-form" >
             <input
                 type="text"
                 placeholder="Add a todo"
