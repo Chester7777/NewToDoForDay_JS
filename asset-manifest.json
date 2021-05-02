@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/NewToDoForDay_JS/static/css/main.9c00e266.chunk.css",
+    "main.js": "/NewToDoForDay_JS/static/js/main.6e3db9d7.chunk.js",
+    "main.js.map": "/NewToDoForDay_JS/static/js/main.6e3db9d7.chunk.js.map",
+    "runtime-main.js": "/NewToDoForDay_JS/static/js/runtime-main.c738d296.js",
+    "runtime-main.js.map": "/NewToDoForDay_JS/static/js/runtime-main.c738d296.js.map",
+    "static/js/2.b78322a1.chunk.js": "/NewToDoForDay_JS/static/js/2.b78322a1.chunk.js",
+    "static/js/2.b78322a1.chunk.js.map": "/NewToDoForDay_JS/static/js/2.b78322a1.chunk.js.map",
+    "index.html": "/NewToDoForDay_JS/index.html",
+    "static/css/main.9c00e266.chunk.css.map": "/NewToDoForDay_JS/static/css/main.9c00e266.chunk.css.map",
+    "static/js/2.b78322a1.chunk.js.LICENSE.txt": "/NewToDoForDay_JS/static/js/2.b78322a1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c738d296.js",
+    "static/js/2.b78322a1.chunk.js",
+    "static/css/main.9c00e266.chunk.css",
+    "static/js/main.6e3db9d7.chunk.js"
+  ]
+}
